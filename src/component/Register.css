@@ -1,0 +1,24 @@
+.registerPage{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.LastName{
+    margin: 10px;
+}
+
+.Password{
+    margin: 10px;
+}
+
+#signUp{
+    margin-top: 20px;
+
+}
+.headlinesdiv{
+   margin-right: 150px; 
+}
+
+.passwordDiv{
+    margin-right: 130px; 
+}

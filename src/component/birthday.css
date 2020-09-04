@@ -1,0 +1,19 @@
+.titleBirthday{
+    text-align: center;
+}
+
+.startImage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.birthdayPrice{
+    margin-top: -10px;
+    color:gray; 
+}
+
+.moveDown{
+    margin-top: 30px;
+}

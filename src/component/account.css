@@ -1,0 +1,23 @@
+.loginPage{
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+.password_input{
+    margin: 10px;
+}
+
+#loginPic{
+    position: absolute;
+    width:100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-size: cover;
+}
+
+.registerNow{
+    margin-top: 30px;
+}

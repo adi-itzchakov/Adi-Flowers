@@ -15,10 +15,10 @@ class Routers extends Component
             <Switch>
                 <Route path='/cart' component={Cart} />
                 <Route path='/register' component={Register} />
-                <Route path='/account' component={Account} />
                 <Route path='/contact' component={Contact} />
                 <Route path='/birthday' component={Birthday} />
-                <Route exact path='/' component={Home} />
+                <Route path='/home' component={Home} />
+                <Route exact path='/' component={Account} />
             </Switch>
         )
     }

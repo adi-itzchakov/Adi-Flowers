@@ -3,7 +3,6 @@ import { Input,Button,Icon } from 'semantic-ui-react';
 import './Register.css';
 import LoginImg from '../pictures/login-img.jpg';
 
-
 class Register extends Component{
     render(){
         return(
@@ -22,7 +21,9 @@ class Register extends Component{
                 <br />
                 <Input className="ConfirmPassword" placeholder="Confirm Password"></Input>
                 <br />
-                <Button id="signUp" size='medium'>Sign up</Button>
+                <Button id="signUp" size='medium'>
+                    <a href='/home'>Sign up</a>
+                </Button>
                 <h3>OR</h3>
                 <Button color='facebook'>
                     <Icon name='facebook' /> Facebook

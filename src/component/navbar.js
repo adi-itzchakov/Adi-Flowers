@@ -18,7 +18,7 @@ class Navbar extends React.Component {
           Adi Flowers
         </Menu.Item>
 
-        <Menu.Item as={Link} to='/'
+        <Menu.Item as={Link} to='/home'
           name='home'
           active={activeItem === 'home'}
           onClick={this.handleItemClick}
@@ -43,7 +43,7 @@ class Navbar extends React.Component {
         </Menu.Item>
 
         <Menu.Menu position='right' >
-          <Menu.Item as={Link} to='/account'
+          <Menu.Item as={Link} to='/'
             name='account'
             active={activeItem === 'account'}
             onClick={this.handleItemClick}

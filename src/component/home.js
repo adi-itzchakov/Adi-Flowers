@@ -17,7 +17,7 @@ import Begonia from '../pictures/Begonia.jpg';
 import lavender from '../pictures/lavender.jpg'
 
 const extra = (
-    <a href="/#">
+    <a href="/home">
       <Button color="yellow">Add me</Button>
     </a>
   )

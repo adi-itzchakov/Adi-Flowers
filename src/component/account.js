@@ -3,7 +3,6 @@ import { Input,Button,Icon } from 'semantic-ui-react'
 import './account.css';
 import LoginImg from '../pictures/login-img.jpg';
 
-
 class Account extends React.Component{
     render(){
         return(
@@ -13,7 +12,9 @@ class Account extends React.Component{
                 <br />
                 <Input className="password_input" placeholder="Password"></Input>
                 <br />
-                <Button size='medium'>Login</Button>
+                <Button size='medium'>
+                    <a href='/home'>Login</a>
+                </Button>
                 <br />
                 <a href="/#">Forgot Password?</a>
                 <h3>OR</h3>

@@ -8,7 +8,7 @@ class Cart extends React.Component{
         return(
             <div className="cartBody">
                 <h2>Your Cart is Empty</h2>
-                <Link to="/" >
+                <Link to="/Home" >
                     <Button color="teal">CONTINUE SHOPPING</Button>
                 </Link>
             </div>
